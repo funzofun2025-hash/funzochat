@@ -3,8 +3,8 @@ import { X } from "lucide-react";
 
 function FeedbackModal({ handleClose }) {
   return (
-    <div className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="bg-white rounded-lg shadow-xl w-full max-w-md p-6 relative animate-in zoom-in-95 duration-200">
+    <div className="animate-in fade-in fixed inset-0 z-60 flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm duration-200">
+      <div className="animate-in zoom-in-95 relative w-full max-w-md rounded-lg bg-white p-6 shadow-xl duration-200">
         {/* Close Icon */}
         <button
           onClick={() => handleClose(false)}
@@ -13,7 +13,7 @@ function FeedbackModal({ handleClose }) {
           <X size={24} />
         </button>
 
-        <h2 className="text-xl font-bold text-gray-900 mb-4">
+        <h2 className="mb-4 text-xl font-bold text-gray-900">
           We value your feedback
         </h2>
 
@@ -22,7 +22,7 @@ function FeedbackModal({ handleClose }) {
           onSubmit={(e) => {
             e.preventDefault();
             alert("Feedback sent!");
-            setIsFeedbackModalOpen(false);
+            handleClose(false);
           }}
         >
           <div>
@@ -31,7 +31,7 @@ function FeedbackModal({ handleClose }) {
             </label>
             <input
               type="text"
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500 focus:outline-none"
               placeholder="John Doe"
               required
             />
@@ -42,14 +42,14 @@ function FeedbackModal({ handleClose }) {
             </label>
             <textarea
               rows={4}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-blue-500 focus:ring-blue-500 focus:outline-none"
               placeholder="Tell us what you think..."
               required
             />
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors font-semibold"
+            className="w-full rounded-md bg-blue-600 px-4 py-2 font-semibold text-white transition-colors hover:bg-blue-700"
           >
             Submit Feedback
           </button>
