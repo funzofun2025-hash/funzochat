@@ -2,7 +2,7 @@ export const termsOfServiceData = {
   title: "Terms of services",
   lastUpdated: "December 8, 2025",
   companyName: "Funzo",
-  intro: `Welcome to Funzo (the “Platform”), which is provided by [Insert Your Company Name Pvt Ltd] (collectively referred to as “Funzo”, “we” or “us”).
+  intro: `Welcome to Funzo (the “Platform”), which is provided by Funzo (collectively referred to as “Funzo”, “we” or “us”).
   
   You are reading the Terms of Service (the “Terms”), which govern the relationship and serve as an agreement between you and us and set forth the terms and conditions by which you may access and use the Platform and our related websites, services, applications, products, and content (collectively, the “Services”).
   
