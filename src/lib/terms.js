@@ -83,29 +83,17 @@ export const termsOfServiceData = {
       ],
     },
     {
-      id: "grievance",
-      title: "9. Grievance Officer (India)",
-      content: [
-        "In accordance with the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, the name and contact details of the Grievance Officer are provided below:",
-        "• <strong>Name:</strong> [Insert Name]",
-        "• <strong>Designation:</strong> Grievance Officer",
-        "• <strong>Company:</strong> [Insert Your Company Name Pvt Ltd]",
-        "• <strong>Email:</strong> [Insert Email, e.g., grievance@funzo.in]",
-        "• <strong>Address:</strong> [Insert Registered Office Address]",
-      ],
-    },
-    {
       id: "changes",
-      title: "10. Changes to Terms",
+      title: "9. Changes to Terms",
       content: [
         "We may revise these Terms from time to time. The most current version will always be on this page. By continuing to access or use the Services after those revisions become effective, you agree to be bound by the revised Terms.",
       ],
     },
     {
       id: "contact",
-      title: "11. Contact Us",
+      title: "10. Contact Us",
       content: [
-        "If you have any questions about these Terms, please contact us at: [Insert Support Email]",
+        "If you have any questions about these Terms, please contact us at: <strong>funzofun2025@gmail.com</strong>",
       ],
     },
   ],
